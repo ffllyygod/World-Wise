@@ -1,7 +1,24 @@
-import styles from './CityList.module.css'
+/* eslint-disable react/prop-types */
+
+import styles from "./CityList.module.css";
+import Spinner from "./Spinner";
+import CityItem from "./CityItem";
+import Message from "./Message";
+import { useCities } from "../contexts/CityContext";
+
 const CityList = () => {
+  const {cities, isLoading} = useCities();
+  if (isLoading) return <Spinner />;
+  if (!cities.length)
+    return (
+      <Message message="Add your first city by clicking the city on the map" />
+    );
   return (
-    <ul className={styles.cityList}>CityList</ul>
-  )
-}
-export default CityList
+    <ul className={styles.cityList}>
+      {cities.map((city) => (
+        <CityItem city={city} key={city.id} />
+      ))}
+    </ul>
+  );
+};
+export default CityList;

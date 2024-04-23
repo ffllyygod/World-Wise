@@ -5,9 +5,7 @@ const AppNav = () => {
     <nav className={styles.nav}>
       <ul>
         <li>
-          <NavLink to="cities" exact>
-            cites
-          </NavLink>
+          <NavLink to="cities">cites</NavLink>
         </li>
         <li>
           <NavLink to="countries">countries</NavLink>
