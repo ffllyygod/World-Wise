@@ -34,7 +34,9 @@ function City() {
     function () {
       getCity(id);
     },
-    [id]
+    [id, getCity]
+
+    // phele getcity dalta tho ghaat ho jaati useEffect ke sath mtlb infinte loop tabhi stablize kiya useCallback use kiya
   );
   // const [searchParams, setSearchParams] = useSearchParams();
   // const lat = searchParams.get("lat");

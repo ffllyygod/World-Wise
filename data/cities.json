@@ -25,18 +25,6 @@
       }
     },
     {
-      "id": "3058",
-      "cityName": "Attapeu",
-      "country": "Lao People's Democratic Republic (the)",
-      "emoji": "🇱🇦",
-      "date": "2024-04-24T06:24:47.167Z",
-      "notes": "tripset",
-      "position": {
-        "lat": "14.83861155338482",
-        "lng": "106.81457519531251"
-      }
-    },
-    {
       "id": "d74f",
       "cityName": "Indore",
       "country": "India",
@@ -46,6 +34,18 @@
       "position": {
         "lat": "22.735656852206496",
         "lng": "75.86059570312501"
+      }
+    },
+    {
+      "id": "5961",
+      "cityName": "Amravati",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-04-27T10:44:22.228Z",
+      "notes": "",
+      "position": {
+        "lat": "21.02907777130759",
+        "lng": "77.73553767360484"
       }
     }
   ]
