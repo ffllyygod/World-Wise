@@ -1,8 +1,28 @@
-# React + Vite
+# WorldWise Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple web app that allows users to keep track of the places they've visited. Built to highlight routing, the react context API as well as the leaflet library.
 
-Currently, two official plugins are available:
+Project based on [The Ultimate React Course 2023](https://www.udemy.com/course/the-ultimate-react-course/) by Jonas Schmedtmann.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+
+Run `npm install` to install all needed dependencies.
+
+```bash
+$ npm install
+```
+
+The API is simulated by a JSON file in the data folder running on `json-server`. You can change the port on the `package.json` file by changing the `--port` flag value.
+
+```bash
+$ npm run server
+
+# on another terminal instance
+$ npm run start
+```
+
+## Screenshots
+
+![Homepage](https://github.com/ffllyygod/World-Wise/blob/main/screenshot/Screenshot%20from%202024-04-27%2008-43-23.png)
+
+![Application](https://github.com/ffllyygod/World-Wise/blob/main/screenshot/Screenshot%20from%202024-04-27%2008-44-53.png)
